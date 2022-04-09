@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
   margin: auto;
-  max-width: 1200px;
+  max-width: 1120px;
   height: 40px;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   ul {
@@ -15,7 +15,9 @@ export const Container = styled.nav`
     flex-direction: row;
 
     li {
-      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+
       padding-right: 25px;
       text-transform: capitalize;
       list-style: none;

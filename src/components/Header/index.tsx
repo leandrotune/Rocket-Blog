@@ -7,7 +7,7 @@ import { Container } from "./styles";
 export function Header() {
     return (
         <Container>
-            <img src={logoIgm} alt="Logotipo Rocket Blog" srcSet="" />
+            <img src={logoIgm} alt="Logotipo Rocket Blog" />
 
             <ul>
                 <li><a href="#">home</a></li>
@@ -15,6 +15,7 @@ export function Header() {
                 <li><a href="#">categorias</a></li>
                 <li><a href="#">contato</a></li>
             </ul>
+
 
             <SearchField />
 
