@@ -16,7 +16,6 @@ export function Header() {
                 <li><a href="#">contato</a></li>
             </ul>
 
-
             <SearchField />
 
         </Container>

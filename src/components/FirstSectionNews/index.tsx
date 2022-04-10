@@ -1,3 +1,4 @@
+import arrowRightImg from "../../assets/images/arrow-right.svg";
 import newsFeaturedImg from "../../assets/images/featured-image.png";
 import { Container, Content } from "./style";
 
@@ -8,7 +9,12 @@ export function FirstSectionNews() {
             <Content>
                 <div className="sectionInformative">
                     <h1>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus voluptatem quidem laboriosam fugiat aliquam ipsam excepturi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nibn eu in aliquest ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac.</p>
+
+                    <div>
+                        <p>veja mais </p>
+                        <img src={arrowRightImg} alt="Arrow Right" />
+                    </div>
                 </div>
 
                 <div className="sectionVisualNews" >

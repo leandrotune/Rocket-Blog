@@ -23,13 +23,27 @@ export const Content = styled.div`
     }
 
     p {
+      width: 85%;
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       color: var(--light-purple);
     }
+
+    div {
+      margin-top: 20px;
+
+      p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: var(--button-bg);
+
+        display: inline;
+      }
+    }
   }
 
   .sectionVisualNews {
-    width: 50X%;
+    width: 50%;
   }
 `;
