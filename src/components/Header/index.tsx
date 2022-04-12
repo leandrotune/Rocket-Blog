@@ -10,10 +10,10 @@ export function Header() {
             <img src={logoIgm} alt="Logotipo Rocket Blog" />
 
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">categorias</a></li>
-                <li><a href="#">contato</a></li>
+                <li><a href="http://">home</a></li>
+                <li><a href="http://">sobre</a></li>
+                <li><a href="http://">categorias</a></li>
+                <li><a href="http://">contato</a></li>
             </ul>
 
             <SearchField />

@@ -19,6 +19,8 @@ export const Container = styled.nav`
       font-weight: 400;
 
       padding-right: 25px;
+      padding-left: 2.5px;
+      
       text-transform: capitalize;
       list-style: none;
 
@@ -30,8 +32,6 @@ export const Container = styled.nav`
       :hover {
         font-weight: bold;
         border-left: 3px solid var(--green);
-        padding-left: 2.5px;
-      }
     }
   }
 `;

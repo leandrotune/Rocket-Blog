@@ -2,6 +2,7 @@
 
 import { FirstSectionNews } from "../FirstSectionNews";
 import { Header } from "../Header";
+import { MainSection } from "../MainSection";
 import { Container } from "./styles";
 
 export function Home() {
@@ -9,6 +10,7 @@ export function Home() {
         <Container>
             <Header />
             <FirstSectionNews />
+            <MainSection />
         </Container>
 
     );

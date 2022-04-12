@@ -11,8 +11,8 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
-  .sectionInformative {
-    width: 42%;
+  .sectionFeaturedNews {
+    max-width: 42%;
 
     h1 {
       font-family: "Poppins", sans-serif;
@@ -23,27 +23,21 @@ export const Content = styled.div`
     }
 
     p {
-      width: 85%;
+      max-width: 85%;
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       color: var(--light-purple);
+      margin-bottom: 20px;
     }
 
-    div {
-      margin-top: 20px;
+    a {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: var(--button-bg);
 
-      p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        text-transform: capitalize;
-        color: var(--button-bg);
-
-        display: inline;
-      }
+      display: inline-block;
+      text-decoration: none;
     }
-  }
-
-  .sectionVisualNews {
-    width: 50%;
   }
 `;
